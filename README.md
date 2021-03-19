@@ -7,3 +7,11 @@ This was my first web app incorporating the MERN Stack. The premise of BoNKERZ i
 Anyone can access the page and create a post, which we call a Thread as it is subject to many changes. They may give it a title, a description, tags and an image, and then also stamp their name on the post.
 
 ![PageScreenshot](/screenshots/webpage.png/)
+
+When submitted, each post has its fields pushed to the connected MongoDB Atlas Database, where it is stored as a MongoDB document.
+
+![DatabaseScreenshot](/screenshots/db.png/)
+
+The Edit function can be accessed from the icon in the top right of each post. The corresponding Thread's fields will then appear in the Submit Form and will specify that the user is now editing an existing post. Submitting will then update the given post.
+
+![EditScreenshot](/screenshots/edit.png/)
