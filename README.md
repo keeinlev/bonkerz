@@ -1,3 +1,3 @@
 # BoNKERZ
 
-#Try it Yourself![bonkerz.herokuapp.com]
+#[Try it Yourself!](https://bonkerz.herokuapp.com)
