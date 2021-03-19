@@ -10,10 +10,14 @@ The webpage was designed using React components and the @material-ui-core Librar
 
 ![PageScreenshot](/screenshots/webpage.png/)
 
+
+
 When submitted, each post has its fields pushed to the connected MongoDB Atlas Database, where it is stored as a MongoDB document.
 The sending and getting of data from the API is facilitated by the use of Redux hooks such as useDispatch, useSelector and useEffect
 
 ![DatabaseScreenshot](/screenshots/db.png/)
+
+
 
 The Edit function can be accessed from the icon in the top right of each post. The corresponding Thread's fields will then appear in the Submit Form and will specify that the user is now editing an existing post. Submitting will then update the given post.
 
