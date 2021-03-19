@@ -1,0 +1,30 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "An app for sharing small positive encounters with humankind :)",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "build": "cd client && npm run build",
+    "install-client": "cd client && npm install",
+    "heroku-postbuild": "npm run install-client && npm run build",
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "Kevin Lee <k327lee@uwaterloo.ca>",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.12.0",
+    "nodemon": "^2.0.7",
+    "path": "^0.12.7",
+    "serve": "^11.3.2"
+  },
+  "engines": {
+    "node": "15.11.0",
+    "npm": "7.6.0"
+  }
+}
