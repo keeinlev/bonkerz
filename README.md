@@ -11,7 +11,7 @@ The webpage was designed using React components and the @material-ui-core Librar
 ![PageScreenshot](/screenshots/webpage.png/)
 
 When submitted, each post has its fields pushed to the connected MongoDB Atlas Database, where it is stored as a MongoDB document.
-The sending and getting of data is facilitated by the use of Redux hooks such as useDispatch, useSelector and useEffect
+The sending and getting of data from the API is facilitated by the use of Redux hooks such as useDispatch, useSelector and useEffect
 
 ![DatabaseScreenshot](/screenshots/db.png/)
 
