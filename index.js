@@ -27,12 +27,12 @@ mongoose.connect(process.env.CONNECTION_URL, { useNewUrlParser: true, useUnified
 
 mongoose.set('useFindAndModify', false);
 
-if (process.env.NODE_ENV === 'production') {
-    app.use(express.static('client/build'));
-    app.get('*', (req,res)=>{
-        res.sendFile(path.resolve(__dirname, 'client', 'build', 'index.html'))
-    })
-}
+//if (process.env.NODE_ENV === 'production') {
+app.use(express.static('client/build'));
+//    app.get('*', (req,res)=>{
+//        res.sendFile(path.resolve(__dirname, 'client', 'build', 'index.html'))
+//    })
+//}
 
 app.listen(PORT, () => {
     console.log(`Listening on port ${PORT}`);
