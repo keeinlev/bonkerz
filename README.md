@@ -6,9 +6,12 @@ This was my first web app incorporating the MERN Stack. The premise of BoNKERZ i
 
 Anyone can access the page and create a post, which we call a Thread as it is subject to many changes. They may give it a title, a description, tags and an image, and then also stamp their name on the post.
 
+The webpage was designed using React components and the @material-ui-core Library.
+
 ![PageScreenshot](/screenshots/webpage.png/)
 
 When submitted, each post has its fields pushed to the connected MongoDB Atlas Database, where it is stored as a MongoDB document.
+The sending and getting of data is facilitated by the use of Redux hooks such as useDispatch, useSelector and useEffect
 
 ![DatabaseScreenshot](/screenshots/db.png/)
 
