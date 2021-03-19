@@ -19,11 +19,12 @@ const App = () => {
 
     return (
         <Container maxwidth="lg">
-            <AppBar className={ classes.appBar } position="static" color="inherit">
+            <AppBar className={ classes.appBar1 } position="static" color="inherit">
                 <Typography className={ classes.heading } variant="h2" align="center">:BoNKERZ:</Typography>
-                <Typography className={ classes.title } variant="h2" align="center">About</Typography>
-                <Typography variant="body2" align="center" component="p">Welcome to BoNKERZ! This is the fast-paced social media app with no rules. Create a Thread in the form and it will appear to all users. The catch? Anyone can edit your post. Oh, and, only 20 posts will ever be on the site. Once it reaches past that limit, you can kiss that Thread goodbye. Have fun!</Typography>
                 {/*<img className={ classes.image } src={memories} alt="memories" height="60" />*/}
+            </AppBar>
+            <AppBar className={ classes.appBar2 } position="static" color="inherit">
+                <Typography variant="body2" align="center" component="p">Welcome to BoNKERZ! This is the fast-paced social media app with no rules. Create a Thread in the form and it will appear to all users. The catch? Anyone can edit your post. Oh, and, only 20 posts will ever be on the site. Once it reaches past that limit, you can kiss that Thread goodbye. Have fun!</Typography>
             </AppBar>
             <Grow in>
                 <Container>
