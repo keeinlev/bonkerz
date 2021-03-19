@@ -1,7 +1,7 @@
 {
   "name": "server",
   "version": "1.0.0",
-  "description": "An app for sharing small positive encounters with humankind :)",
+  "description": "An unmoderated social media app where only 20 threads can remain posted at once. Users can edit each others' posts and it is absolute chaos.",
   "main": "index.js",
   "type": "module",
   "scripts": {
